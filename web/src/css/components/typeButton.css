@@ -1,0 +1,31 @@
+.main_search_buttonTypes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_search_buttonTypes button {
+    width: 84%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    text-align: start;
+    cursor: pointer;
+    color: white;
+    background: none;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+.main_search_buttonTypes button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.main_search_buttonTypes button:hover{
+    background-color: #7a5af5;
+}

@@ -1,0 +1,29 @@
+.main_animals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 100vh;
+    width: calc(100vw - 280px);
+}
+
+.main_animals_animalCard{
+    margin-top: 38px;
+    margin-left: 10px;
+    width: calc(30%);
+    height: 25vw;
+    margin-bottom: 40px;
+}
+
+.main_animals_animalCard img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_animals_animalCard p{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
